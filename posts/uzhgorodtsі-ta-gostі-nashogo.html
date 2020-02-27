@@ -1,14 +1,16 @@
 ﻿<!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" prefix="og: http://ogp.me/ns#">
 <head>
     <meta charset="UTF-8">
-    <title>art</title>
-    <meta name="title" content="art">
+    <title>Ужгородці та гості нашого міста, запрошую вас на виставку картин!</title>
     
     <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/> 
     <script async src="https://use.fontawesome.com/d758daec41.js"></script>   
 	<link rel="stylesheet" href="../css/style.css"/>
+    
+    <meta name="description" content="Ужгородці та гості нашого міста, запрошую вас на виставку картин!">
+    <meta name="keywords" content="uzhhorod" />
     
     <link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
@@ -16,10 +18,10 @@
     <link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-icon-76x76.png">
     <link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-icon-114x114.png">
     <link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../img/favicon/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="../img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../img/favicon/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
@@ -27,9 +29,23 @@
     <meta name="msapplication-TileColor" content="#fff">
     <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#fff">
+    
+    <link rel="image_src" href="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/88162025_1065812000460854_1484168300021270158_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=102&_nc_ohc=1x5tN4Nd6qgAX8iJcb3&oh=98a3ad1ae182a4eb88bb8568e42dfd77&oe=5E86FE01" />
+    <meta name="robots" content="INDEX, FOLLOW" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://maryna-kisiv.itsinsta.site/posts/uzhgorodtsі-ta-gostі-nashogo.html" />
+    <meta property="og:image" content="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/88162025_1065812000460854_1484168300021270158_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=102&_nc_ohc=1x5tN4Nd6qgAX8iJcb3&oh=98a3ad1ae182a4eb88bb8568e42dfd77&oe=5E86FE01" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1080"/>
+    <meta property="og:image:height" content="1075"/>
+    <meta property="og:title" content="Ужгородці та гості нашого міста, запрошую вас на виставку картин!" />
+    <meta property="og:description" content="Ужгородці та гості нашого міста, запрошую вас на виставку картин!" />
+    <meta property="og:locale" content="Ru-ru" />
+    <meta property="og:site_name" content="maryna_kisiv" />
 
 	<!--modernizr-->
 	<script src="../js/vendors/modernizr-custom.js"></script>
+
 
 
 
@@ -44,7 +60,7 @@
 		Вам нужно включить JavaScript в своем браузере, чтобы  отображение этой страницы было корректно.
     </noscript>
 	<div class="wrapper">
-		<header class="header">
+		<header class="header" id="js-header">
 			<div class="container">
 				<div class="header__wrap">
 					<div class="header__left">
@@ -54,12 +70,6 @@
 						</a>
 						<div class="header__title">Maryna Kisiv Art</div>
 					</div>
-					<!--<div class="header__right">
-						<form action="#" method="get" class="search">
-							<input type="search" class="input search__input" placeholder="Поиск">
-							<button class="btn search__btn" type="submit" title="Искать"><i class="fa fa-search" aria-hidden="true"></i></button>
-						</form>
-					</div>-->
 				</div>
 			</div>
 		</header>	
@@ -67,11 +77,14 @@
 			<section class="big-banner" style="background-image: url(https://lichnyj-brend.ru/img/landing/pink.jpg);">
 				<div class="container">
 					<div class="big-banner__wrapper">
-						<h1 class="big-banner__title">art</h1>
-						<div class="big-banner__bar">
+						<h1 class="big-banner__title">Ужгородці та гості нашого...</h1>
+						<h2 class="big-banner__txt">Відкриття 3-го березня, триватиме до кінця місяця.</h2>
+						<div class="big-banner__bar"
+>
 							<div class="main-sec__contacts">
 								<div class="main-sec__contacts-wrap" id="js-cont-list">
-									<div class="main-sec__contacts-btn" id="js-cont-list-btn" onclick="document.getElementById('js-cont-list').classList.toggle('open');">Сообщение</div>
+									<div class="main-sec__contacts-btn" id="js-cont-list-btn" 
+										onclick="document.getElementById('js-cont-list').classList.toggle('open');">Сообщение</div>
 									<ul class="main-sec__contacts-list">
 										<li><a href="https://www.instagram.com/maryna_kisiv" 
 										target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
@@ -89,7 +102,7 @@
 							<div class="swiper-wrapper">
 								<div class="swiper-slide">
 									<div class="stories__slide" title="oil painting">
-										<a href="./oil-painting.html">
+										<a href="./tags/./oil-painting.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/oil-painting.png);"></div>
 											<div class="stories__slide-txt">oil painting</div>
 										</a>
@@ -97,7 +110,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="картини україна">
-										<a href="./kartini-ukraїna.html">
+										<a href="./tags/./kartini-ukraїna.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/kartini-ukraїna.png);"></div>
 											<div class="stories__slide-txt">картини україна</div>
 										</a>
@@ -105,7 +118,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="painting forsale">
-										<a href="./painting-forsale.html">
+										<a href="./tags/./painting-forsale.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/painting-forsale.png);"></div>
 											<div class="stories__slide-txt">painting forsale</div>
 										</a>
@@ -113,7 +126,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="картини напродаж">
-										<a href="./kartini-naprodazh.html">
+										<a href="./tags/./kartini-naprodazh.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/kartini-naprodazh.png);"></div>
 											<div class="stories__slide-txt">картини напродаж</div>
 										</a>
@@ -121,7 +134,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="картини нахолсті">
-										<a href="./kartini-nakholstі.html">
+										<a href="./tags/./kartini-nakholstі.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/kartini-nakholstі.png);"></div>
 											<div class="stories__slide-txt">картини нахолсті</div>
 										</a>
@@ -129,7 +142,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="картини наполотні">
-										<a href="./kartini-napolotnі.html">
+										<a href="./tags/./kartini-napolotnі.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/kartini-napolotnі.png);"></div>
 											<div class="stories__slide-txt">картини наполотні</div>
 										</a>
@@ -137,7 +150,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="painter">
-										<a href="./painter.html">
+										<a href="./tags/./painter.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/painter.png);"></div>
 											<div class="stories__slide-txt">painter</div>
 										</a>
@@ -145,7 +158,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="картини">
-										<a href="./kartini.html">
+										<a href="./tags/./kartini.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/kartini.png);"></div>
 											<div class="stories__slide-txt">картини</div>
 										</a>
@@ -153,7 +166,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="stilllife">
-										<a href="./stilllife.html">
+										<a href="./tags/./stilllife.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/stilllife.png);"></div>
 											<div class="stories__slide-txt">stilllife</div>
 										</a>
@@ -161,7 +174,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="картини олією">
-										<a href="./kartini-olієyu.html">
+										<a href="./tags/./kartini-olієyu.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/kartini-olієyu.png);"></div>
 											<div class="stories__slide-txt">картини олією</div>
 										</a>
@@ -169,7 +182,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="roses">
-										<a href="./roses.html">
+										<a href="./tags/./roses.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/roses.png);"></div>
 											<div class="stories__slide-txt">roses</div>
 										</a>
@@ -177,7 +190,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="italy">
-										<a href="./italy.html">
+										<a href="./tags/./italy.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/italy.png);"></div>
 											<div class="stories__slide-txt">italy</div>
 										</a>
@@ -185,7 +198,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="art gallery">
-										<a href="./art-gallery.html">
+										<a href="./tags/./art-gallery.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/art-gallery.png);"></div>
 											<div class="stories__slide-txt">art gallery</div>
 										</a>
@@ -193,7 +206,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="art">
-										<a href="./art.html">
+										<a href="./tags/./art.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/art.png);"></div>
 											<div class="stories__slide-txt">art</div>
 										</a>
@@ -201,7 +214,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="uzhhorod">
-										<a href="./uzhhorod.html">
+										<a href="./tags/./uzhhorod.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/uzhhorod.png);"></div>
 											<div class="stories__slide-txt">uzhhorod</div>
 										</a>
@@ -209,7 +222,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="interior painting">
-										<a href="./interior-painting.html">
+										<a href="./tags/./interior-painting.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/interior-painting.png);"></div>
 											<div class="stories__slide-txt">interior painting</div>
 										</a>
@@ -217,7 +230,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="flowers">
-										<a href="./flowers.html">
+										<a href="./tags/./flowers.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/flowers.png);"></div>
 											<div class="stories__slide-txt">flowers</div>
 										</a>
@@ -225,7 +238,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="modern art">
-										<a href="./modern-art.html">
+										<a href="./tags/./modern-art.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/modern-art.png);"></div>
 											<div class="stories__slide-txt">modern art</div>
 										</a>
@@ -233,7 +246,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="rose painting">
-										<a href="./rose-painting.html">
+										<a href="./tags/./rose-painting.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/rose-painting.png);"></div>
 											<div class="stories__slide-txt">rose painting</div>
 										</a>
@@ -241,7 +254,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="art galleries">
-										<a href="./art-galleries.html">
+										<a href="./tags/./art-galleries.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/art-galleries.png);"></div>
 											<div class="stories__slide-txt">art galleries</div>
 										</a>
@@ -249,7 +262,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="interiordesign">
-										<a href="./interiordesign.html">
+										<a href="./tags/./interiordesign.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/interiordesign.png);"></div>
 											<div class="stories__slide-txt">interiordesign</div>
 										</a>
@@ -257,7 +270,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="stilllife painting">
-										<a href="./stilllife-painting.html">
+										<a href="./tags/./stilllife-painting.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/stilllife-painting.png);"></div>
 											<div class="stories__slide-txt">stilllife painting</div>
 										</a>
@@ -265,7 +278,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="naples">
-										<a href="./naples.html">
+										<a href="./tags/./naples.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/naples.png);"></div>
 											<div class="stories__slide-txt">naples</div>
 										</a>
@@ -273,7 +286,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="procida">
-										<a href="./procida.html">
+										<a href="./tags/./procida.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/procida.png);"></div>
 											<div class="stories__slide-txt">procida</div>
 										</a>
@@ -281,7 +294,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="art ist">
-										<a href="./art-ist.html">
+										<a href="./tags/./art-ist.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/art-ist.png);"></div>
 											<div class="stories__slide-txt">art ist</div>
 										</a>
@@ -289,7 +302,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="garden">
-										<a href="./garden.html">
+										<a href="./tags/./garden.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/garden.png);"></div>
 											<div class="stories__slide-txt">garden</div>
 										</a>
@@ -297,7 +310,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="bouquet">
-										<a href="./bouquet.html">
+										<a href="./tags/./bouquet.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/bouquet.png);"></div>
 											<div class="stories__slide-txt">bouquet</div>
 										</a>
@@ -305,7 +318,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="продажкартин">
-										<a href="./prodazhkartin.html">
+										<a href="./tags/./prodazhkartin.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/prodazhkartin.png);"></div>
 											<div class="stories__slide-txt">продажкартин</div>
 										</a>
@@ -313,7 +326,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="roses painting">
-										<a href="./roses-painting.html">
+										<a href="./tags/./roses-painting.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/roses-painting.png);"></div>
 											<div class="stories__slide-txt">roses painting</div>
 										</a>
@@ -321,7 +334,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="roses paintings">
-										<a href="./roses-paintings.html">
+										<a href="./tags/./roses-paintings.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/roses-paintings.png);"></div>
 											<div class="stories__slide-txt">roses paintings</div>
 										</a>
@@ -336,87 +349,140 @@
 			</div>
 			<nav class="breadcrumbs">
 				<div class="container">
-					<a href="../main.html">Главная</a> / <span>art</span>
+					<a href="../main.html">Главная</a> / <span>Ужгородці та гості нашого</span>
 				</div>
 			</nav>
-			<div class="tag">
+			<article class="article">
 				<div class="container">
-					<div class="tag__group">
-						<div class="tag__item-list">
-							<a href="../posts/./persha-kartina-ts-ogo.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/82308296_2273921699375626_7435309319487496081_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=110&_nc_ohc=t92m9LrH8gMAX9ccbVf&oh=9fa274c73acafe19ecba4d89870be6e5&oe=5E856531" alt=""></div>
-								<div class="tag__item-desc">
-									<div class="tag__item-datas">
-										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2020-01-24">24 January 2020</time></div>
-										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>50</div>
-									</div>
-									<div class="tag__item-txt">
-										<h2>Перша картина цього</h2>
-										<p>Перша картина цього року - завершена! «Натюрморт з трояндами», олійні фарби на полотні з льону, 50х70 см.<br/>Oil painting. “Still life with roses”, 50x70 cm.</p>
-										<p>...ЧИТАТЬ ДАЛЕЕ</p>
-									</div>
-								</div>
-							</a>
-							<a href="../posts/./persha-kartina-ts-ogo-1.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/75587987_629390754269254_1542504979025952116_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=110&_nc_ohc=ovD8OcPswuIAX-hndnf&oh=91d06d1226e0519ffe0d86d1198ca562&oe=5E8585DB" alt=""></div>
-								<div class="tag__item-desc">
-									<div class="tag__item-datas">
-										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2020-01-24">24 January 2020</time></div>
-										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>49</div>
-									</div>
-									<div class="tag__item-txt">
-										<h2>Перша картина цього</h2>
-										<p>Перша картина цього року - завершена! «Натюрморт з трояндами», олійні фарби на полотні з льону, 50х70 см.<br/>Oil painting. “Still life with roses”, 50x70 cm.</p>
-										<p>...ЧИТАТЬ ДАЛЕЕ</p>
-									</div>
-								</div>
-							</a>
-							<a href="../posts/./persha-kartina-ts-ogo-2.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/81042247_181402106567139_6343317482659949083_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=103&_nc_ohc=mjVABETxv1EAX_j3sbE&oh=cad69fe0e2b775a917aecbc9790c842d&oe=5E898801" alt=""></div>
-								<div class="tag__item-desc">
-									<div class="tag__item-datas">
-										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2020-01-24">24 January 2020</time></div>
-										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>42</div>
-									</div>
-									<div class="tag__item-txt">
-										<h2>Перша картина цього</h2>
-										<p>Перша картина цього року - завершена! «Натюрморт з трояндами», олійні фарби на полотні з льону, 50х70 см.<br/>Oil painting. “Still life with roses”, 50x70 cm.</p>
-										<p>...ЧИТАТЬ ДАЛЕЕ</p>
-									</div>
-								</div>
-							</a>
-							<a href="../posts/./zavershila-sonyachnu-kartinu-1.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/87660765_3052451021445264_5227749534220568731_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100&_nc_ohc=Y6WwBIAkgOMAX-8uNkw&oh=b2bde0532d05fcb65c96bd80e0cffdee&oe=5E8655AE" alt=""></div>
-								<div class="tag__item-desc">
-									<div class="tag__item-datas">
-										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2020-02-26">26 February 2020</time></div>
-										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>33</div>
-									</div>
-									<div class="tag__item-txt">
-										<h2>Завершила сонячну картину</h2>
-										<p>Завершила сонячну картину для прискорення приходу весни 🌞😊<br/>«Олеандр у променях сонця, о. Сицилія», олійні фарби, 50х65 см<br/>“Oleander in the rays of the sun, Sicily”, oil painting, 50x65 cm<br/> 🇮🇹</p>
-										<p>...ЧИТАТЬ ДАЛЕЕ</p>
-									</div>
-								</div>
-							</a>
-							<a href="../posts/./zavershila-sonyachnu-kartinu.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/87836443_213127476547167_9221849876641212798_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=103&_nc_ohc=DKa-c8FpmOEAX90SE3I&oh=1d808b10e4110095c1f7773958cfa5c9&oe=5E87B1C1" alt=""></div>
-								<div class="tag__item-desc">
-									<div class="tag__item-datas">
-										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2020-02-26">26 February 2020</time></div>
-										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>29</div>
-									</div>
-									<div class="tag__item-txt">
-										<h2>Завершила сонячну картину</h2>
-										<p>Завершила сонячну картину для прискорення приходу весни 🌞😊<br/>«Олеандр у променях сонця, о. Сицилія», олійні фарби, 50х65 см<br/>“Oleander in the rays of the sun, Sicily”, oil painting, 50x65 cm<br/> 🇮🇹</p>
-										<p>...ЧИТАТЬ ДАЛЕЕ</p>
-									</div>
-								</div>
-							</a>
+					<div class="article__header">
+						<div class="article__datas">
+							<div class="article__datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2020-02-26">26 February 2020</time></div>
+							<a href="https://www.instagram.com/p/B9CWon3HVdz/" 
+								target="_blank" class="article__datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</a>
+							<a href="https://www.instagram.com/p/B9CWon3HVdz/" 
+								target="_blank" class="article__datas-item"><i class="fa fa-heart" aria-hidden="true"></i>12</a>
 						</div>
 					</div>
-				</div>
-			</div>			
+					<div class="article__wrap" id="ja-article-wrap">
+						<div class="article-main">
+							<div class="article-content">
+								<figure>
+									<img src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/88162025_1065812000460854_1484168300021270158_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=102&_nc_ohc=1x5tN4Nd6qgAX8iJcb3&oh=98a3ad1ae182a4eb88bb8568e42dfd77&oe=5E86FE01" alt="">
+								</figure> 
+								<p>Ужгородці та гості нашого міста, запрошую вас на виставку картин! Відкриття 3-го березня, триватиме до кінця місяця. Вхід вільний. 😊 <br/>Щороку в перші дні весни художній салон "Диптих" святкує свій день народження. Цьогоріч свято відзначаємо разом із ужгородською художницею Мариною Кісів Maryna Kisiv Art. Запрошуємо насолодитися барвами весняного сонця і помилуватись яскравими витворами молодої авторки. <br/>Відкриття виставки - 3 березня о 18.00 год. Виставка триватиме до кінця березня. <br/>Ласкаво просимо!</p> 
+							</div>
+						<div>
+							<a href="https://www.instagram.com/p/B9CWon3HVdz/" 
+								target="_blank" class="links-page-btn shake"><strong>Комментировать</strong><small>Instagram</small>
+							</a>
+						</div>
+
+							<div class="article-tags">
+								<h2 class="article-tags__title">Выберите интересную категорию</h2>
+								<div class="article-tags__list">
+									<a href="../main.html">На главную</a>
+									<a href="../tags/./uzhhorod.html">uzhhorod</a>
+								</div>
+							</div>
+						</div>
+						<aside class="article-bar">
+							<h2 class="article-more__title">ПОХОЖИЕ</h2>
+							<div class="article-bar__tagsgroupe" id="js-tags">
+								<nav class="article-bar__tags">
+									<h3 class="article-bar__tags-title">
+										uzhhorod
+										
+									</h3>
+									<ul class="article-bar__tags-list">
+									<li><a href="./persha-kartina-ts-ogo.html">Перша картина цього</a></li>
+									<li><a href="./persha-kartina-ts-ogo-1.html">Перша картина цього</a></li>
+									<li><a href="./persha-kartina-ts-ogo-2.html">Перша картина цього</a></li>
+									</ul>
+								</nav>
+							</div>
+						</aside>
+					</div>
+					<section class="article-more">
+						<div class="container">
+							<h2 class="article-more__title">ПОПУЛЯРНЫЕ</h2>
+							<div class="article-more__list">
+								<a href="./persha-kartina-ts-ogo.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>50</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/82308296_2273921699375626_7435309319487496081_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=110&_nc_ohc=t92m9LrH8gMAX9ccbVf&oh=9fa274c73acafe19ecba4d89870be6e5&oe=5E856531" alt="Перша картина цього">
+									</div>
+									<div class="article-more__item-name">Перша картина цього</div>
+								</a>
+								<a href="./persha-kartina-ts-ogo-1.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>49</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/75587987_629390754269254_1542504979025952116_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=110&_nc_ohc=ovD8OcPswuIAX-hndnf&oh=91d06d1226e0519ffe0d86d1198ca562&oe=5E8585DB" alt="Перша картина цього">
+									</div>
+									<div class="article-more__item-name">Перша картина цього</div>
+								</a>
+								<a href="./persha-kartina-ts-ogo-2.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>42</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/81042247_181402106567139_6343317482659949083_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=103&_nc_ohc=mjVABETxv1EAX_j3sbE&oh=cad69fe0e2b775a917aecbc9790c842d&oe=5E898801" alt="Перша картина цього">
+									</div>
+									<div class="article-more__item-name">Перша картина цього</div>
+								</a>
+								<a href="./syayuche-mіsto-uzhgorod.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>77</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/79538910_134942394152941_5630154613775285992_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=101&_nc_ohc=6BOjPLIVIAEAX_L8vLA&oh=581d1771d6a0ada64f04f67f43fe0d3c&oe=5E859BD9" alt="Сяюче місто Ужгород">
+									</div>
+									<div class="article-more__item-name">Сяюче місто Ужгород</div>
+								</a>
+								<a href="./sunny-winter.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>58</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/80038358_491272118190843_1783400587464543678_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=103&_nc_ohc=q0gwB4trsgkAX_phryP&oh=d841f2521ed4da26f340d25c877a7c55&oe=5E8472C5" alt="Sunny winter">
+									</div>
+									<div class="article-more__item-name">Sunny winter</div>
+								</a>
+								<a href="./vіdnayshla-fotografії-z-lіta.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>52</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/81944678_183771629538882_2033905469661237237_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=106&_nc_ohc=eCJm-PgiBtIAX_MjCwk&oh=ddcb5f750f3342e1486f3dc52a2c3777&oe=5E8A8577" alt="Віднайшла фотографії з літа,">
+									</div>
+									<div class="article-more__item-name">Віднайшла фотографії з літа,</div>
+								</a>
+								<a href="./xgarden-rosesxx-oil-painting.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>43</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/75388586_438677567023252_9084557697763621907_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=104&_nc_ohc=mWkAcic4ZBcAX-ncPqs&oh=bb452369c82af6fa41105d4828d1e25d&oe=5E8669D3" alt="“Garden roses”, oil painting,">
+									</div>
+									<div class="article-more__item-name">“Garden roses”, oil painting,</div>
+								</a>
+								<a href="./vіdnayshla-fotografії-z-lіta-2.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>41</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-arn2-2.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/82125968_178568783391497_5860663787275953942_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105&_nc_ohc=gBO7ku6h8pkAX8_yhY1&oh=d43adf494b215ab80538b760318a3398&oe=5E82D658" alt="Віднайшла фотографії з літа,">
+									</div>
+									<div class="article-more__item-name">Віднайшла фотографії з літа,</div>
+								</a>
+							</div>
+						</div>
+					</section>		
+				</div>			
+			</article>			
 		</div>			
 		<div class="banner">
 			<div class="banner__overlay" id="js-banner-overlay" onclick="document.getElementById('js-banner-overlay').classList.toggle('open');document.getElementById('js-banner-main').classList.toggle('open');"></div>
@@ -450,7 +516,7 @@
 
 				</div>
 			</div>
-		</div>			
+		</div>		
 	</div>
 	<!--swiper-->
 	<script src="../js/vendors/swiper.min.js"></script>
